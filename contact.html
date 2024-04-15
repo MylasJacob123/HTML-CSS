@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style> 
+    
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .main-container {
+        justify-content: center;
+      }
+
+      .container0 {
+        display: flex;
+        justify-content: space-between;
+        gap: 20%;
+      }
+
+      h1 {
+        color: skyblue;
+      }
+
+      h2 {
+        color: skyblue;
+      }
+
+      .container2 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 15px;
+        border: 1px solid skyblue;
+        border-radius: 5px;
+      }
+
+      input {
+        margin: 5px 0px;
+        height: 35px;
+        padding: 7px;
+      }
+
+      button {
+        height: 35px;
+        margin: 5px 0px;
+        background-color: skyblue;
+        border: none;
+        border-radius: 5px;
+        color: #333;
+      }
+
+      button:hover {
+        background: #333;
+        color: skyblue;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="main-container">
+      <div class="container0">
+        <div class="container1">
+          <h2>Get in touch</h2>
+          <p>
+            For more information you can get in touch with me on the following
+            platforms<br />
+            <hr />
+            WhatsApp@ +27 67 085 4083<br />
+            Email@ mylasjacob18.5@gmail.com<br />
+          </p>
+        </div>
+        <div class="container2">
+          <h2>Info</h2>
+          <input type="Name" placeholder="Name" />
+          <input type="Email" placeholder="Email" />
+          <input type="Message" placeholder="Message" />
+          <button>Send</button>
+        </div>
+        <div>
+            <h2>Map</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.1270498814156!2d24.734153376398012!3d-28.715748870943504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9b1abf402de7d7%3A0xf53643ccbd68e6d0!2s24%20Mafungo%20St%2C%20Galeshewe%2C%20Kimberley%2C%208345!5e0!3m2!1sen!2sza!4v1712839073460!5m2!1sen!2sza"
+              width="200"
+              height="200"
+              style="border: 50%"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
